@@ -16,6 +16,7 @@ if (c >= 0 && c <= b)
 else if (c < 0)
 {
     Console.WriteLine("That value is too high. Stock not adjusted.");
+    c = b;
 }
 else if (c > 100)
 {
@@ -36,6 +37,7 @@ if (f >= 0 && f <= e)
 else if (f < 0)
 {
     Console.WriteLine("That value is too high. Stock not adjusted.");
+    f = e;
 }
 else if (f > 40)
 {
@@ -56,6 +58,7 @@ if (i >= 0 && i <= 60)
 else if (i < 0)
 {
     Console.WriteLine("That value is too high. Stock not adjusted.");
+    i = h;
 }
 else if (i > 60)
 {
